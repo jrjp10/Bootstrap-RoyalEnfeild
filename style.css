@@ -1,0 +1,113 @@
+
+.text{
+  margin-top: 120px;
+}
+.img-fluid1{
+  overflow: hidden;
+}
+
+.row .img1 {
+  background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/tout/overdrive.jpg);
+  background-size: cover;
+  height: 200px;
+  /* transition: all 0.2s ease; */
+  
+  
+}
+/* .img1:hover{
+  transform: scale(1.1);
+  
+} */
+.row .img2{
+  background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/tout/moto.jpg);
+  background-size: cover;
+  /* transition: all 0.3s ease; */
+}
+/* .img2:hover{
+  transform: scale(1.1);
+  
+} */
+.row .img3{
+  background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/tout/meets-the-expectations.jpg);
+  background-size: cover;
+  /* transition: all 0.3s ease; */
+}
+/* .img3:hover{
+  transform: scale(1.1);
+} */
+.row .img4{
+  background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/tout/build-to-be-slick.jpg);
+  background-size: cover;
+  /* transition: all 0.3s ease; */
+}
+/* .img4:hover{
+  transform: scale(1.1);
+ 
+} */
+.nav-link{
+  color: white;
+  font-size: 13px;
+}
+.nav-link:hover{
+  color: red;
+}
+.nav-divider{
+  margin-top:  5px; 
+  color: white;
+}
+.navbar-nav .nav-link {
+  margin-right: 9px; /* Add margin to the right of each navbar link */
+  margin-left: 9px; /* Add margin to the left of each navbar link */
+}
+
+.navbar-nav .nav-divider {
+  margin-right: 5px; /* Add margin to the right of each navbar divider */
+  margin-left: 5px; /* Add margin to the left of each navbar divider */
+}
+.img-fluid2{
+  height: 500px;
+}
+
+
+.icon-text:hover{
+  cursor: pointer;
+  color: red;
+}
+.list-unstyled li:hover{
+  cursor: pointer;
+  color: red;
+
+
+}
+.containerlogo{
+  background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/locate-us/desktop/stores.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 510px;
+  
+}
+.containerlogo1{
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/541/323/816/motorcycle-cigar-shed-royal-enfield-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  height: 800px;
+}
+.btnContact{
+  background-color: red;
+
+}
+.btnContact:hover{
+  background-color: white;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+  .icon{
+    width: 25px;
+  }
+  .icon-text{
+    font-size: 10px;
+  }
+  
+}
